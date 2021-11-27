@@ -435,7 +435,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🔍 Search Movies', url='https://t.me/new_cinema_mall'),
             InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
@@ -449,14 +449,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
-            InlineKeyboardButton('Auto Filter', callback_data='autofilter')
+            InlineKeyboardButton('𝙼𝚊𝚗𝚞𝚊𝚕 𝙵𝚒𝚕𝚝𝚎𝚛, callback_data='manuelfilter'),
+            InlineKeyboardButton('𝙰𝚞𝚝𝚘 𝙵𝚒𝚕𝚝𝚎𝚛', callback_data='autofilter')
             ],[
-            InlineKeyboardButton('Connection', callback_data='coct'),
-            InlineKeyboardButton('Extra Mods', callback_data='extra')
+            InlineKeyboardButton('𝙱𝚘𝚃 𝙰𝚍𝚖𝚒𝚗 𝙲𝚘𝚗𝚗𝚎𝚌𝚝𝚒𝚘𝚖', callback_data='coct'),
+            InlineKeyboardButton('𝙴𝚡𝚝𝚛𝚊 𝙵𝚎𝚊𝚝𝚞𝚛𝚎𝚜', callback_data='extra')
             ],[
-            InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('🔮 Status', callback_data='stats')
+            InlineKeyboardButton('🏠 𝙷𝚘𝚖𝚎', callback_data='start'),
+            InlineKeyboardButton('🔮 𝙱𝚘𝚃 𝚂𝚝𝚊𝚝𝚞𝚜', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -466,7 +466,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/ncm_links'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
