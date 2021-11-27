@@ -449,7 +449,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('𝙼𝚊𝚗𝚞𝚊𝚕 𝙵𝚒𝚕𝚝𝚎𝚛, callback_data='manuelfilter'),
+            InlineKeyboardButton('𝙼𝚊𝚗𝚞𝚊𝚕 𝙵𝚒𝚕𝚝𝚎𝚛', callback_data='manuelfilter'),
             InlineKeyboardButton('𝙰𝚞𝚝𝚘 𝙵𝚒𝚕𝚝𝚎𝚛', callback_data='autofilter')
             ],[
             InlineKeyboardButton('𝙱𝚘𝚃 𝙰𝚍𝚖𝚒𝚗 𝙲𝚘𝚗𝚗𝚎𝚌𝚝𝚒𝚘𝚖', callback_data='coct'),
