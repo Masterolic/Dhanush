@@ -30,7 +30,8 @@ SPELL_CHECK = {}
 
 @Client.on_message(filters.group & filters.text & ~filters.edited & filters.incoming)
 async def give_filter(client,message):
-    await advantage_spell_chok(message.text.lower())
+    query = message.text.lower()
+    await advantage_spell_chok(str(query))
 
 @Client.on_callback_query(filters.regex(r"^next"))
 async def next_page(bot, query):
