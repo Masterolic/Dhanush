@@ -348,10 +348,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             
         try:
             if AUTH_CHANNEL and not await is_subscribed(client, query):
-                await query.answer(url=f"https://t.me/{temp.U_NAME}?start={file_id}")
+                await query.answer(url=f"https://t.me/new_cinema_mall?start={file_id}")
                 return
             elif P_TTI_SHOW_OFF:
-                await query.answer(url=f"https://t.me/{temp.U_NAME}?start={file_id}")
+                await query.answer(url=f"https://t.me/new_cinema_mall?start={file_id}")
                 return
             else:
                 await client.send_cached_media(
@@ -359,13 +359,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     file_id=file_id,
                     caption=f_caption
                     )
-                await query.answer('Check PM, I have sent files in pm',show_alert = True)
+                await query.answer('Check PM, I have sent files in pm/n Dont know what is PM .Go to @new_cinema_mall_bot thats the PM of the bot',show_alert = True)
         except UserIsBlocked:
-            await query.answer('Unblock the bot mahn !',show_alert = True)
+            await query.answer('Unblock the bot bro./nIf you dont know how to unblock a bot then go to @new_cinema_mall_bot and just click START!',show_alert = True)
         except PeerIdInvalid:
-            await query.answer(url=f"https://t.me/{temp.U_NAME}?start={file_id}")
+            await query.answer(url=f"https://t.me/new_cinema_mall_bot?start={file_id}")
         except Exception as e:
-            await query.answer(url=f"https://t.me/{temp.U_NAME}?start={file_id}")
+            await query.answer(url=f"https://t.me/new_cinema_mall_bot?start={file_id}")
 
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
