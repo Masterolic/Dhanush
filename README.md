@@ -8,3 +8,5 @@ Nothing special huh
 </a>
 </p>
 </details>
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
