@@ -4,7 +4,7 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙰 𝚆𝙰𝚈 𝚃𝙾 𝚆𝙰𝚂𝚃𝙴 𝚈𝙾𝚄𝚁 𝚃𝙸𝙼𝙴 𝙻𝙾𝙾𝙺𝙸𝙽𝙶 𝙶𝚁𝙾𝚄𝙿 𝙰𝙳𝙼𝙸𝙽 𝙾𝙽𝙻𝚈 𝙷𝙴𝙻𝙿."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/new_cinema_mall>Team NCM LINKS</a>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Naveen_TG>Naveen-TG</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
@@ -14,7 +14,7 @@ class script(object):
 - 𝙸 𝙰𝙼 𝙰 𝙲𝙻𝙾𝚂𝙴 𝚂𝙾𝚄𝚁𝙲𝙴 𝙿𝚁𝙾𝙹𝙴𝙲𝚃
 - 𝙼𝙰𝙳𝙴 𝙱𝚈 𝚃𝙷𝙴 𝙰𝙳𝙼𝙸𝙽𝚂 𝙾𝙵 𝚃𝙷𝙴 𝙶𝚁𝙾𝚄𝙿  
 <b>DEVS:</b>
-- <a href=https://t.me/new_cinema_mall>𝙾𝚄𝚁 𝚃𝙴𝙰𝙼</a>"""
+- <a href=https://t.me/TamilMV_Collections>𝙾𝚄𝚁 𝚃𝙴𝙰𝙼</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
 <b>NOTE:</b>
@@ -30,7 +30,7 @@ class script(object):
 - I Supports both url and alert inline buttons.
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Eva Maria supports buttons with any telegram media type.
+2. Dhanush supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 <b>URL buttons:</b>
 <code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
