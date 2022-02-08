@@ -1,7 +1,7 @@
 <b>Dhanush Bot<b>
 
 <h1 align="center">
-  <b>Dhanush Bot</b>
+  <b>DHANUSH BOT</b>
 </h1>
 
 <details><summary>Deploy To Heroku</summary>
