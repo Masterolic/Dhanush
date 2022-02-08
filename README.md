@@ -1,5 +1,9 @@
 <b>Dhanush Bot<b>
 
+<h1 align="center">
+  <b>Eva Maria Bot</b>
+</h1>
+
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
