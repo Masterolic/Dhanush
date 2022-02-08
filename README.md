@@ -1,6 +1,4 @@
-
-
-##Dhanush Bot
+<b>Dhanush Bot<b>
 
 <details><summary>Deploy To Heroku</summary>
 <p>
