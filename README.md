@@ -16,11 +16,12 @@
 - [x] Index
 - [x] IMDB search
 - [x] Inline Search
+- [x] Purge
+- [x] Paste
 - [x] Random pics
 - [x] ids and User info 
 - [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
+- [x] Song 
 - [x] Spelling Check Feature
-- [x] Purge
-- [x] Paste
 - [x] Video 
-- [x] Song
+
