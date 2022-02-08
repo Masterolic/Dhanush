@@ -1,7 +1,7 @@
 <b>Dhanush Bot<b>
 
 <h1 align="center">
-  <b>Eva Maria Bot</b>
+  <b>Dhanush Media Bot</b>
 </h1>
 
 <details><summary>Deploy To Heroku</summary>
