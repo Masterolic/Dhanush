@@ -4,20 +4,20 @@
 
 <h1 align="center">
   <b>DHANUSH BOT</b>
-</h1>
+</h1>.
 
 ## Features
 
-- [D] Auto Filter
-- [D] Manual Filter
-- [D] IMDB
-- [D] Admin Commands
-- [D] Broadcast
-- [D] Index
-- [D] IMDB search
-- [D] Inline Search
-- [D] Random pics
-- [D] ids and User info 
-- [D] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
-- [D] Spelling Check Feature
-
+- [x] Auto Filter
+- [x] Manual Filter
+- [x] IMDB
+- [x] Admin Commands
+- [x] Broadcast
+- [x] Index
+- [x] IMDB search
+- [x] Inline Search
+- [x] Random pics
+- [x] ids and User info 
+- [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
+- [x] Spelling Check Feature
+- [x] File Store
